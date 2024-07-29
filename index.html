@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>TODO List</title>
+</head>
+
+<!-- Main Page -->
+<body>
+    <h3 class="title"><u>List of tasks</u></h3><br>
+
+    <ul>
+        <li id="task-1">
+            <input type="checkbox" class="check" id="check-1" onclick="checked_task(this)">
+            <textarea placeholder="task content" class="area_content"></textarea>
+            <i class="fa-solid fa-plus" onclick="add_task(this)"></i>
+            <i class="fa-solid fa-minus" onclick="remove_task(this)"></i>
+        </li>
+    </ul>
+</body>
+
+<!-- script -->
+<script src="https://kit.fontawesome.com/7aec2fa477.js" crossorigin="anonymous"></script>
+<script src="main.js"></script>
+</html>

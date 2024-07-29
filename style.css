@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+body {
+    font-family: Ubuntu;
+    background-color: rgb(31, 31, 31);
+    color: white;
+}
+
+.title, li{
+    display: flex;
+    justify-content: center;
+}
+
+/* Check Box */
+
+.check {
+    width: 20px;
+    height: 20px;
+}
+
+/* ------ */
+
+.area_content {
+    width: 800px;
+    margin-left: 20px;
+    margin-right: 20px;
+    user-select: none;
+    background-color: rgb(144, 144, 144);
+}
+
+.area_content:focus{
+    outline: none;
+    border:none;
+}
+
+i{
+    margin-right: 15px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.fa-solid.fa-plus {
+    color:rgb(47, 255, 116)
+}
+
+.fa-solid.fa-minus {
+    color:rgb(250, 52, 26)
+}
